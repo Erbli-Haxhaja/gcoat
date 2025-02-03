@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(29, 12, 6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 184, 174);
+}
+
+.navButtons {
+    background-color: rgb(202, 184, 174);
+    border: 2px solid rgb(29, 12, 6);
+    color: rgb(29, 12, 6);
+    font-weight: bold;
+}
+
+.navButtons:hover {
+    background-color: rgb(29, 12, 6);
+    color: rgb(202, 184, 174);
+    transition: all .3s ease;
+}
+
+.roadMapText {
+    color: rgb(202, 184, 174);
+}
+
+.div {
+    background-color: rgb(29, 12, 6);
+    border: 2px solid rgb(202, 184, 174);
+    color: rgb(202, 184, 174);
+    font-weight: bold;
+    width: 80%;
+}
+
+footer{
+    margin-top: auto;
+}
